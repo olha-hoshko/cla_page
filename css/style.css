@@ -1,0 +1,36 @@
+header>section {
+    background-image: url("./../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#backgroundBrightness {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+p {
+    font-size: 15px;
+}
+
+#learnMore p {
+    font-size: 17px;
+}
+
+main li::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 20' fill='rgba(108,117,125)'%3E%3Cpath d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z'/%3E%3C/svg%3E");
+}
+
+a[class~="navbar-brand"] {
+    color: #C62C45 !important;
+    font-weight: 600;
+}
+
+.dark-background-color {
+    background-color: #343a40;
+}
+
+button[class~="btn-success"] {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
